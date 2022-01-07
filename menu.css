@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+html, body{
+    width: 100%;
+}
+a.link, a:active, a:visited{
+    text-decoration: none;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+   
+}
+.phandau {
+    height: 2114px;
+    width: 100%;
+    background-color: #e3ecc2;
+}
+.cot1  {
+   
+    background-image: url(images/Shape5.png);
+    width: 100%;
+    height: 862px;
+}
+.cot1 ._1 {
+    display: flex;
+    width: 100%;
+} 
+.cot1 ._1 ._11{
+    width: 50%;
+    padding-top: 90px;
+    padding-left: 140px;
+}
+.cot1 ._1 ._11 img{
+    width: 40%;
+}
+.cot1 ._1 ._12{
+    
+    text-align: center;
+    width: 50%;
+    padding-top: 200px;
+    
+}
+.cot1 ._1 ._12 ul li a{
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+.cot1 ._2 {
+    width: 100%;
+    display: flex;
+}
+.cot1 ._2 ._21 {
+    /* padding-top: 55px; */
+    margin-left: 40px;
+    text-align: right;
+    width:75%;
+}
+.cot1 ._2 ._21 h1, h3{
+    color: white;
+}
+.cot1 ._2 ._21 h3{
+    padding-right: 170px;
+}
+
+.cot1 ._2 ._22 {
+    padding-top: 125px;
+    width: 25%;
+    text-align: right;
+}
+.cot1 ._2 {
+    height: 900px;
+    width: 100%;
+    position: absolute;
+}
+.cot1 ._3 {
+    padding-top: 670px;
+    padding-left: 140px;
+}
+.menu h1{
+    
+    padding-top: 200px;
+    color: #7287ae;
+    text-align: center;
+}
+.hinhmenu {
+    width: 100%;
+    padding-top: 110px;
+    padding-right: 114px;
+    padding-left: 114px;
+    display: flex;
+    justify-content: space-between;
+}
+.hinhmenu .hinh {
+    width: calc((100% - 60px) / 3);
+    border: 1px solid white;
+}
+.hinhmenu .hinh img{
+    width: 100%;
+}
+.hinhmenu .hinh h3,p,h5{
+    color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.hinhmenu .hinh .chu{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    font-family: Arial;
+}  
+.hinhmenu .hinh .chu h3{
+    height: 15%;
+}
+.hinhmenu .hinh .chu .gia{
+    height: 20%;
+}
+.hinhmenu .hinh .chu .do {
+    
+    display: block;
+    width: 100%;
+    height: 65%;
+}
+button a {
+    font-size: 25px;
+}
+.nut{
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    
+}
+.nut .n1 {
+    padding-left: 200px;
+    text-align: center;
+    width: 86%;
+}
+.nut .n2{
+    padding-top: 20px;
+    text-align: right;
+    width: 14%;
+}
+.nut a{
+    color: white;
+}
+button{ 
+    height: 50px;
+    width: 300px;
+    background-color:#7287ae;
+    border-radius: 30px;
+}
+
+.menu h1{
+    font-size: 52px;
+}
+._2 ._21 h1{
+    font-size: 55px;
+}
+.phangiua {
+    
+    width: 100%;
+    height: 1560px;
+}
+.phangiua .khoi1 {
+    width: 100%;
+    display: flex;
+}
+.phangiua .khoi2 {
+    width: 100%;
+    display: flex;
+}
+.phangiua .khoi1 .chu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;  
+    width: 50%;   
+}
+.phangiua .khoi1 .chu p{
+   padding: 20px 0;
+}
+.phangiua .khoi1 img{
+    width: 50%;   
+}
+.phangiua .khoi2 .chu{
+    padding-left: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 50%; 
+}
+.phangiua .khoi2 .chu p{
+    padding: 20px 0;
+ }
+.phangiua .khoi2 img{
+    width: 50%;   
+}
+@media screen and ( max-width: 1200px) {
+   
+    .cot1 ._1 ._11{
+
+        padding-left: 30px;
+    }
+    .cot1 ._2 ._21 {
+       padding-left: 50px;
+        text-align: center; 
+    }
+    .cot1 ._2 ._21 h3{
+        padding-right: 0px;
+    }
+    .hinhmenu {
+        
+        padding-right: 50px;
+        padding-left: 50px;
+        
+    }
+    .hinhmenu .hinh .chu{
+        height: 300px;
+    }
+    button{ 
+        height: 40px;
+        width: 250px; 
+    }
+    button a {
+        font-size: 15px;
+    }
+    .nut{
+        display: block;
+        width: 100%;
+          
+    }
+    .nut .n1 {
+       text-align: center;
+       padding-left: 0px;
+        width: 100%;
+        
+    }
+    .nut .n2{
+        padding-top: 0px;
+        padding-left: 70px;
+        text-align: right;
+        width: 100%;
+    }
+    .nut .n2 img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .phangiua .khoi2 .chu{
+        padding-left: 30px;
+        width: 50%; 
+    }
+    .phangiua .khoi2 .chu h1 {
+        font-size: 30px;
+    }
+    .phangiua .khoi2 .chu p {
+        font-size: 13px;
+    }
+    
+    .phangiua .khoi1 .chu h1 {
+        font-size: 30px;
+    }
+    .phangiua .khoi1 .chu p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cot1 ._1 ._11 img{
+        width: 35%;
+    }
+    .cot1 ._1 ._12 ul li a{  
+        font-size: 12px;  
+    }
+    .cot1 ._2 ._21 h1{
+        font-size: 25px;
+    }
+    .cot1 ._2 ._21 h3{
+        font-size: 20px;
+    }
+    .cot1 ._2 ._22 img{
+        width: 52px;
+        height: 100px;
+    }
+    .menu h1{
+        font-family: Arial;
+        font-size: 25px;
+    }
+    .hinhmenu {
+        
+        padding-right: 20px;
+        padding-left: 20px;
+        flex-wrap: wrap;
+       
+    }
+    .hinhmenu .hinh .chu{
+        width: 100%;
+    }
+    
+    .nut{
+        display: block;   
+    }
+    .nut .n1 {
+       
+        text-align: center;
+        padding-left: 20px;
+        width: 100%;
+        
+    }
+    .nut .n2{
+        width: 100%;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-left: 40px;
+        text-align: center;
+    }
+    .phangiua .khoi1 .chu{
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 40px;  
+          
+    }
+    button{ 
+        height: 50px;
+        width: 200px;
+        background-color:#7287ae;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    ._3 img{
+        width: 130px;
+        height: 80px;
+    }
+    .nut .n2 img{
+        width: 100px;
+        height: 100px;
+    }
+    button{ 
+        height: 40px;
+        width: 180px; 
+        
+    }
+    button a {
+        font-size: 13px;
+        
+    }
+    .phangiua .khoi2 .chu h1 {
+        font-size: 20px;
+    }
+    .phangiua .khoi2 .chu p {
+        font-size: 10px;
+    }
+    
+    .phangiua .khoi1 .chu h1 {
+        font-size: 20px;
+    }
+    .phangiua .khoi1 .chu p {
+        font-size: 10px;
+    }
+}
